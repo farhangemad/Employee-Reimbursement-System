@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Page</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+<h1>Employee Homepage</h1>
+<p id = "records">
+
+</p>
+
+
+<section class="content container">
+    <h2>View Your Reimbursement Requests</h2>
+    <button id="pendingReq" value="Logout">Pending</button>
+    <button id="resolvedReq" value="Logout">Resolved</button>
+</section>
+<section class="content container">
+    <h2>View Your Information</h2>
+    <button id="viewInfo" value="Logout">Me</button>
+</section>
+<section class="content container">
+    <h2>Submit Reimbursement Request</h2>
+<form id="requestForm" method="post" action="">
+    <label for="id" >Employee ID</label>
+    <input type="text" name="id" id="id" placeholder="Enter ID" required><br><br>
+
+    <label for="amount">Amount</label>
+    <input type="text" name="amount" id="amount" placeholder="Enter amount" required><br><br>
+
+    <label for="reason">Reason Code</label>
+    <input type="text" name="reason" id="reason" placeholder="Enter code" required><br>
+
+    <button type="submit" id="submitRequestButton">Submit</button>
+</form>
+</section>
+<section class="content container">
+    <h2>Logout</h2>
+    <button type="logout" id="logoutButton" value="Logout">Logout</button>
+</section>
+
+<script src="employee.js"></script>
+</body>
+</html>

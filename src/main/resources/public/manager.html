@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manager Page</title>
+    <link href="styles.css" rel="stylesheet" />
+
+
+</head>
+<body>
+<h1>Manager Homepage</h1>
+<p id = "records">
+
+</p>
+
+
+<section class="content container">
+    <h2>View Reimbursement Requests</h2>
+    <button id="pending" value="Logout">Pending</button>
+    <button id="resolved" value="Logout">Resolved</button>
+</section>
+<section class="content container">
+    <h2>View Employees</h2>
+    <button id="viewEmployees" value="Logout">Employees</button>
+</section>
+<section class="content container">
+    <h2>View An Employees' Requests</h2>
+    <form id="viewAReq" method="" action="">
+        <label for="Employee" >Employee ID</label>
+        <input type="text" name="Employee" id="Employee" placeholder="Input ID" required>
+
+        <button type="button" id="submitIDButton">Submit</button>
+    </form>
+</section>
+<section class="content container">
+    <h2>Logout</h2>
+    <button type="logout" id="logoutButton" value="Logout">Logout</button>
+</section>
+
+<script src="manager.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+:root {
+    background-color: #292929;
+}
+
+html, body { /* this allows the children to inherit this style */
+    /*font-size: 22pt;*/
+    color: antiquewhite;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+p{
+    font-size: 14pt;
+}
+
+
+
+header {
+    max-width: 500px;
+    margin: auto;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+p, span, a, h1, h2 { /* you decided what tags would most likely contain text to apply that style */
+    color: antiquewhite;
+}
