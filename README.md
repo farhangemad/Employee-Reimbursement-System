@@ -52,7 +52,7 @@ The ERS manages requests for reimbusement for work related expenses. Employees c
 * This page contains buttons and form for the use of various manager features
 ![Mana](https://user-images.githubusercontent.com/56489056/138535977-5e92e5cb-5b23-4157-ba4d-5c8ed58d2c21.png)
 ## License
-This project uses the following license: GNU GPLv3
+This project uses the following license: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
 
